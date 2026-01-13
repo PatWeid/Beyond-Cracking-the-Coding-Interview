@@ -5,5 +5,5 @@ public interface DynamicArray<T> {
     T get(int index);
     void set(int index, T value);
     int size();
-    T popBack();
+    void popBack();
 }
